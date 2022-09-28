@@ -95,3 +95,42 @@ footer {
     background: #343434;
     color: #f7fff7;
 }
+
+.navigation-bar ul {
+    text-align: left;
+    list-style: none;
+}
+
+.navigation-bar ul li {
+    font: 21px 'Montserrat', sans-serif;
+    display: inline-block;
+    position: relative;
+    padding: 10.5px 25px;
+    background: #f7fff7;
+    color:#2f3061;
+    cursor: pointer;
+}
+.navigation-bar ul li:hover {
+     background: #2f3061;
+     color: #f7fff7;
+}
+.navigation-bar ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 43px;
+    left: -10000px;
+    width: 200px;
+}
+.navigation-bar ul li ul li {
+    display: block;
+    background: #2f3061;
+    color: #f7fff7;
+}
+.navigation-bar ul li ul li:hover {
+    background: #f7fff7; 
+    color: #2f3061;
+}
+.navigation-bar ul li:hover ul {
+    display: block;
+    left: 0px;
+}
